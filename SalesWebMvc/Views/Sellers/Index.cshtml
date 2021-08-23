@@ -7,7 +7,7 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-default btn-outline-primary">Create New</a>
+    <a asp-action="Create" class="btn btn-sm btn-default btn-outline-primary">Create New</a>
 </p>
 
 
@@ -46,9 +46,9 @@
                 @Html.DisplayFor(modelItem => item.BaseSalary)
             </td>
             <td>
-                <a asp-action="Edit"class="btn btn-outline-danger" asp-route-id="@item.Id">Edit</a>
-                <a asp-action="Details"class="btn btn-outline-secondary" asp-route-id="@item.Id">Details</a>
-                <a asp-action="Delete"class="btn btn-outline-primary" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit"class="btn btn-sm btn-outline-primary" asp-route-id="@item.Id">Edit</a>
+                <a asp-action="Details"class="btn btn-sm btn-outline-secondary" asp-route-id="@item.Id">Details</a>
+                <a asp-action="Delete"class="btn btn-sm btn-outline-danger" asp-route-id="@item.Id">Delete</a>
 
             </td>
         </tr>
